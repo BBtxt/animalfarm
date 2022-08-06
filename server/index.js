@@ -15,6 +15,7 @@ const animals = [...Array(250).keys()].map(id => {
         type: chance.animal(),
         age: chance.age(),
         name: chance.name(),
+        color: chance.color()
     }
 });
 
